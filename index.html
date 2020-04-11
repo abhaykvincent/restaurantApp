@@ -1,0 +1,268 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    
+    <!-- meta tag to make sure content is same width as device and not scalabl -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <title>Family of Eatries</title>
+    
+    <!-- link to css files -->
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.1/TweenMax.min.js"></script>
+    
+    <!-- link to js files -->
+    
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="iphone">
+          <div class="power"></div>
+          <div class="lock"></div>
+          <div class="volume up"></div>
+          <div class="volume down"></div>
+          <div class="camera"></div>
+          <div class="speaker"></div>
+          <div class="screen">
+
+            <!-- MENU -->
+    <main id="menu">
+        MENU
+    </main>
+    <!-- SPLASH SCREEN -->
+    <main id="splash">
+            <header ></header>
+        <img src="./img/foeLogo.png" alt="Family of Eateries" />
+        <h1>Family of Eatries</h1>
+        <footer></footer>
+    </main>
+    <!-- LANDNG SCREEN -->
+    <main id="landing">
+        <div class="rest" id="rest1logo">
+            <img id="logo1" src="img/logo3.png">
+            <h2>The Birch Bistro</h2>
+        </div>
+        <div class="rest" id="rest2logo">
+            <img id="logo2" src="img/logo2.png">
+            <h2>Crispy’s</h2>
+        </div>
+        <div class="rest" id="rest3logo">
+            <img id="logo3" src="img/logo1.png">
+            <h2>Ceviche</h2>
+        </div>
+    </main>
+    <!-- RESTAURANT 1 -->
+    <main id="rest1" class="rest">
+        <!-- header -->
+        <header id="rest1Header">
+                <div class="back"></div>
+            <div class="headerLogo">
+                <img src="./img/logo3.png" alt="">
+            </div>
+            <div id="rest1Menu" class="headerMenu">
+                <div class="special headerMenus">Special</div>
+                <div class="reservation headerMenus">Reservation</div>
+            </div>
+        </header>
+        <!-- home -->
+        <section class="home">
+            <img id="homeimg" src="./img/birsto res.jpg">
+            <div class="details"><h1>The Birch Bistro</h1><br> <h3>152 Rue Napoléon,<br>
+                    Montreal, QC<br>
+                    H2W1K8<br> CANADA</h3> 
+                
+                <br><br>
+                <h2 class="detailsHoursLabel">OPENING HOURS</h2><br>
+                <h3>HOURS TODAY - 10:00 TO 23:00</h3></div>
+        </section>
+        <!-- specials -->
+        <section class="specials">
+                <img id="homeimg" src="./img/birsto spcl.jpg">
+                <ul>
+                    <li>GOAT CHEESE & PHYLLO</li>
+                    <li>AMWORTH PORK TERRINE</li>
+                    <li>CREAM OF MUSHROOM SOUP</li>
+                    <li>ROASTED PEAR & WALNUT SALAD</li>
+                    <!-- <li>HERITAGE SALMON</li>
+                    <li>CRISPY TAMWORTH PORK BELLY</li>
+                    <li>BRIE HAMBURGER</li>
+                    <li>GNOCCHI PARISIENNE</li>
+                    <li>DUCK CONFIT SPAGHETTI</li>
+                    <li>CHOCOLATE CAKE</li> -->
+                </ul>
+
+        </section>
+        <!-- reservations -->
+        <section class="reservations reserve1">
+                <img id="homeimg" src="./img/birstoReserve.jpeg">
+            <label for="">Name : </label>
+            <input class="inputBox" type="text" name="" id=""><br><br><br>
+            <label for="">Date :  </label>
+            <input class="inputBox" type="text" name="" id=""><br><br><br>
+            <label for="">Time : </label>
+            <input class="inputBox" type="text" name="" id=""><br><br><br>
+            <label for="">Seats : </label>
+            <input class="inputBox" type="text" name="" id=""><br><br><br>
+            <div class="reserveButton">Reserve</div>
+        </section>
+        <!-- footer -->
+        <footer>
+        </footer>
+    </main>
+
+    <!------------------>
+    <!-- RESTAURANT 2 -->
+    <!------------------>
+    <main id="rest2" class="rest">
+        <!-- header -->
+        <header id="rest2Header">
+                <div class="back"></div>
+            <div class="headerLogo">
+                <img src="./img/logo2.png" alt="">
+            </div>
+            <div  id="rest2Menu" class="headerMenu">
+                <div class="special headerMenus">Special</div>
+                <div class="reservation headerMenus">Reservation</div>
+            </div>
+        </header>
+        <!-- home -->
+        <section class="home">
+                <img id="homeimg" src="./img/crispysRes.jpg">
+            <div class="details"><h1>Crispy’s</h1><br> <h2>125 The West Mall,
+                Etobicoke,
+                ON M9C 1B8</h2> 
+                <br><br>
+                <h2 class="detailsHoursLabel">OPENING HOURS</h2><br>
+                <h3>HOURS TODAY - 10:00 TO 23:00</h3></div>
+        </section>
+        <!-- specials -->
+        <section class="specials">
+                <img id="homeimg" src="./img/crispysSpcl.jpg">
+                <ul>
+                    <li>The French Onion</li>
+                    <li>The Mushroom</li>
+                    <li>The Caesar</li>
+                    <li>The Steak Dinner</li>
+                    <!-- <li>The Southern BBQ</li>
+                    <li>The Buffalo Wing</li>
+                    <li>The Nacho Grande</li>
+                    <li>The Philly Cheese</li>
+                    <li>The Restricted</li>
+                    <li>The Maxuce, beef steak tomato</li> -->
+                </ul>
+                
+        </section>
+        <!-- reservations -->
+        <section class="reservations reserve2">
+
+                <img id="homeimg" src="./img/cevicheReserve.jpeg">
+                <label for="">Name : </label>
+                <input class="inputBox" type="text" name="" id=""><br><br><br>
+                <label for="">Date :  </label>
+                <input class="inputBox" type="text" name="" id=""><br><br><br>
+                <label for="">Time : </label>
+                <input class="inputBox" type="text" name="" id=""><br><br><br>
+                <label for="">Seats : </label>
+                <input class="inputBox" type="text" name="" id=""><br><br><br>
+                <div class="reserveButton">Reserve</div>
+        </section>
+        <!-- footer -->
+        <footer>
+        </footer>
+    </main>
+    <!-- RESTAURANT 3 -->
+    <main id="rest3" class="rest">
+        <!-- header -->
+        <header id="rest3Header">
+                <div class="back"></div>
+            <div class="headerLogo">
+                <img src="./img/logo1.png" alt="">
+            </div>
+            <div  id="rest3Menu" class="headerMenu">
+                <div class="special headerMenus">Special</div>
+                <div class="reservation headerMenus">Reservation</div>
+            </div>
+        </header>
+        <!-- home -->
+        <section class="home">
+            <img id="homeimg" src="./img/cevicheRes.jpg">
+            <div class="details"><h1>Ceviche</h1><br> <h2>38 Cameron St, Toronto, ON M5T 0C3</h2> 
+                <br><br>
+                <h2 class="detailsHoursLabel">OPENING HOURS</h2><br>
+                <h3>HOURS TODAY - 10:00 TO 23:00</h3></div>
+        </section>
+        <!-- specials -->
+        <section class="specials">
+                <img id="homeimg" src="./img/cevicheSpcl.jpg">
+                <ul>
+                    <li>Cancha crunchy corn</li>
+                    <li>Corn fritters, herb, avocado</li>
+                    <li>Pork chifa tequeños wonton </li>
+                    <li>Cassava ‘yuca’ fries, Huancaina</li>
+                    <li>Chicken wings, sticky rocoto</li>
+                    <!-- <li>Potato causa, beetroot</li>
+                    <li>Butter beans and golden berry</li>
+                    <li>Chicken and potato causa</li>
+                    <li>Panca chilli beef heart skewers</li>
+                    <li>Steamed buns, tempura seabass</li> -->
+                </ul>
+
+        </section>
+        <!-- reservations -->
+        <section class="reservations reserve3">
+                <img id="homeimg" src="./img/crispysReserve.jpg">
+                <label for="">Name : </label>
+                <input class="inputBox" type="text" name="" id=""><br><br><br>
+                <label for="">Date :  </label>
+                <input class="inputBox" type="text" name="" id=""><br><br><br>
+                <label for="">Time : </label>
+                <input class="inputBox" type="text" name="" id=""><br><br><br>
+                <label for="">Seats : </label>
+                <input class="inputBox" type="text" name="" id=""><br><br><br>
+                <div class="reserveButton">Reserve</div>
+            </section>
+        <!-- footer -->
+        <footer>
+        </footer>
+    </main>
+
+
+          </div>
+          <div class="button">
+            <div class="square"></div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+    
+    
+    <script>
+        // hide all main elements above the selected index in the ()
+        // comment out when running animtion scripts
+        // 0=menu, 1=splash, 2=landing, 3=rest 1, 4=rest 2, 5=rest 3
+        $("main:gt(1)").hide();
+        
+        // hide all section elements (in the selected restaurant/main screen)
+        // above the selected index in the ()
+        // comment out when running animtion scripts
+        // 0=home, 1=specials, 2=reservations
+        $("#rest1 section:gt(0)").hide();
+        $("#rest2 section:gt(0)").hide();
+        $("#rest3 section:gt(0)").hide();
+    </script>
+    
+    <!-- link to main js file -->
+    
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
